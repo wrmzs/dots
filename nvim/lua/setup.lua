@@ -10,7 +10,6 @@ coq = require('coq')
 -- Language Servers
 require 'lspconfig'.ccls.setup(coq.lsp_ensure_capabilities())
 require 'lspconfig'.pylsp.setup(coq.lsp_ensure_capabilities())
---require 'lspconfig'.tsserver.setup(coq.lsp_ensure_capabilities())
 
 -- Colors
 require 'colorizer'.setup()
